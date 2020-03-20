@@ -27,8 +27,8 @@ Es necesario tener instalado el paquete FSA para poder realizar el test de Dunn
 ## Ejemplo
 
 Copia y pega las siguientes líneas de código y observa cómo trabaja la función:
-
-set.seed(69)
+~~~
+set.seed(666)
 prueba<-data.frame(variable1=runif(16),
                    variable2=rnorm(16),
                    factor1=rep(c("a","b"),each=8),
@@ -38,7 +38,7 @@ prueba<-data.frame(variable1=runif(16),
 np.comp.2f(prueba,c("variable1","variable2"),
 	c("factor1","factor2"),
 	dunn=T,method="holm")
-
+~~~
 
 ## Referencias
 
