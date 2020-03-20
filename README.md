@@ -43,3 +43,4 @@ np.comp.2f(prueba,c("variable1","variable2"),
 ## Referencias
 
 Ogle, D.H., P. Wheeler, and A. Dinno. 2019. FSA: Fisheries Stock Analysis. R package version 0.8.26, https://github.com/droglenc/FSA.
+
